@@ -20,3 +20,9 @@ function restar() {
     const resultado = numero1 - numero2;
     mostrarResultado('resta', resultado);
 }
+
+function multiplicar() {
+    const { numero1, numero2 } = obtenerValores();
+    const resultado = numero1 * numero2;
+    mostrarResultado('multiplicación', resultado);
+}
